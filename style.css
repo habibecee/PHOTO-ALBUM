@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Courgette", cursive;
+}
+
+body {
+	width: auto;
+	height: auto;
+	background-color: #efd5e39d !important;
+}
+
+.page-container {
+	margin: 20px 20% !important;
+	box-shadow: 0 0 5px 5px #393e46;
+}
+
+.container {
+	padding: 0 !important;
+}
+
+.btn-success {
+	background-color: #7d428f !important;
+	border: none !important;
+	box-shadow: 0 0 2px 2px #afbcd0 !important;
+	transition: 0.8s ease-in-out !important;
+}
+
+.btn-success:hover {
+	background-color: #f465f9 !important;
+	color: black !important;
+	border: none !important;
+	box-shadow: 0 0 3px 3px #767e8c !important;
+}
+
+.card {
+	opacity: 0.8 !important;
+	box-shadow: 0 0 5px 5px #7c85966e !important;
+	transition: 0.5s ease-in-out;
+}
+
+.card:hover {
+	opacity: 1 !important;
+	box-shadow: 0 0 5px 5px #606775bf !important;
+}
+
+.card:hover .card-body {
+	background-color: rgba(75, 56, 98, 0.743) !important;
+	color: antiquewhite !important ;
+}

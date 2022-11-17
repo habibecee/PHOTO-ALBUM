@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- HEADER BÖLÜMÜ  BAŞLANGIÇ -->
+
+    <div class="page-container">
+
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg " style="background-color: #BA94D1 ; min-height: 100px;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">PHOTO ALBUM</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hakkımızda</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Galeri
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">İLKBAHAR</a></li>
+                                    <li><a class="dropdown-item" href="#">YAZ</a></li>
+                                    <li><a class="dropdown-item" href="#">SONBAHAR</a></li>
+                                    <li><a class="dropdown-item" href="#">KIŞ</a></li>
+
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search In Seasons"
+                                aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <!-- HEADER BÖLÜMÜ BİTİŞ -->
+
+        <!-- SLIDER BAŞLANGIÇ -->
+
+        <div class="container">
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- style="max-height: 300px;" -->
+                    <div class="carousel-item active ">
+                        <img src="./ASSETS/images/slider/sld1.jpg" class="d-block w-100 h-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./ASSETS/images/slider/sld2.jpg" class="d-block w-100 h-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./ASSETS/images/slider/sld3.jpg" class="d-block w-100 h-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./ASSETS/images/slider/sld4.jpg" class="d-block w-100 h-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+
+        <!-- SLIDER BAŞLANGIÇ -->
+
+
+        <!-- FOTO CARDS BAŞLANGIÇ  -->
+
+        <div class="container p-2">
+
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="./ASSETS/images/seasons/autumn/aut1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">AUTUMN</h5>
+                            <span> Location : TURKIYE </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./ASSETS/images/seasons/spring/spr1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SPRING</h5>
+                            <span> Location : JAPAN </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./ASSETS/images/seasons/summer/sum1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SUMMER</h5>
+                            <span> Location : Maldives </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./ASSETS/images/seasons/winter/w1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">WINTER</h5>
+                            <span> Location : Russia </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./ASSETS/images/seasons/autumn/aut1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">AUTUMN</h5>
+                            <span> Location : TURKIYE </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./ASSETS/images/seasons/spring/spr1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SPRING</h5>
+                            <span> Location : JAPAN </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./ASSETS/images/seasons/summer/sum1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SUMMER</h5>
+                            <span> Location : Maldives </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./ASSETS/images/seasons/winter/w1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">WINTER</h5>
+                            <span> Location : Russia </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./ASSETS/images/seasons/autumn/aut1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">AUTUMN</h5>
+                            <span> Location : TURKIYE </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./ASSETS/images/seasons/spring/spr1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SPRING</h5>
+                            <span> Location : JAPAN </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./ASSETS/images/seasons/summer/sum1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SUMMER</h5>
+                            <span> Location : ITALY </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./ASSETS/images/seasons/winter/w1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">WINTER</h5>
+                            <span> Location : NORWAY </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- FOTO CARDS BİTİŞ  -->
+        <!-- FOOTER BAŞLANGIÇ -->
+
+        <div class="container">
+
+            <footer class="p-5 my-md-5 pt-md-5 border-top">
+                <div class="row">
+                    <div class="col-12 col-md">
+                        <img class="mb-2 rounded-circle" src="./ASSETS/images/logo.jpg" alt="" width="48" height="48">
+                        <small class="d-block mb-3 text-muted">© 2017–2021</small>
+                    </div>
+
+
+                    <div class="col-12 col-md">
+                        <h5>About</h5>
+                        <ul class="list-unstyled text-small">
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
